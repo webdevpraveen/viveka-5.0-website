@@ -252,7 +252,7 @@ const ScrollStack = ({
         syncTouch: true,
         syncTouchLerp: 0.075,
         touchInertia: 0.6
-      });
+      } as any);
 
       lenis.on('scroll', handleScroll);
 
