@@ -69,7 +69,7 @@ export default function Footer() {
             </div>
 
             <p className="mt-20 text-xs text-gray-600">
-                © 2026 Viveka 5.0. Designed by <span className="text-gray-400">Antigravity</span>.
+                © 2026 Viveka 5.0. Built by <span className="text-gray-400">Shrinjay Shresth</span>.
             </p>
         </div>
     </footer>
