@@ -20,9 +20,7 @@ const teamData = {
     { name: "Er. Neeta Bhusal", role: "Faculty Convener", image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1976&auto=format&fit=crop" }
   ],
   webOps: [
-    { name: "Sankalp Jaiswal", role: "WebOps Lead", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop" },
-    { name: "Kushagra Chaturvedi", role: "Tech Lead", image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1974&auto=format&fit=crop" },
-    { name: "Shrinjay Shresth", role: "Developer", image: "/shrinjay.png" }, 
+    { name: "Shrinjay Shresth", role: "WebOps Lead", image: "/shrinjay.png" }, 
   ],
   conveners: [
     { name: "Atam Prakash", role: "Student Convener", image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=2000&auto=format&fit=crop" },
