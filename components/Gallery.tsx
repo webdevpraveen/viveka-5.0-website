@@ -6,12 +6,12 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 const images1 = [
-  "/gallery/1.jpg",
   "/gallery/2.jpg",
-  "/gallery/3.jpg",
+  "/gallery/1.jpg",
+  "/gallery/6.jpg",
   "/gallery/4.jpg",
   "/gallery/5.jpg",
-  "/gallery/6.jpg",
+  "/gallery/3.jpg",
 ];
 
 const images2 = [
