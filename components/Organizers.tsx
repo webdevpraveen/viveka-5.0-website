@@ -48,14 +48,16 @@ const teamData = {
       linkedin: "https://www.linkedin.com/in/neeta-bhusal-13708037/"
     }
   ],
-  webOps: [
-    { name: "Shrinjay Shresth", role: "WebOps Lead", image: "/shrinjay.png" }, 
-  ],
+  veteranConveners: [],
   conveners: [
     { name: "Atam Prakash", role: "Student Convener", image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=2000&auto=format&fit=crop" },
     { name: "Ayushman Singh", role: "Student Convener", image: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=2000&auto=format&fit=crop" },
     { name: "Deepika", role: "Student Convener", image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop" }
-  ]
+  ],
+  studentCoConveners: [],
+  webOps: [
+    { name: "Shrinjay Shresth", role: "WebOps Lead", image: "/shrinjay.png" }, 
+  ],
 };
 
 export default function Organizers() {
@@ -130,7 +132,47 @@ export default function Organizers() {
                      </div>
                 </div>
 
-                {/* Section 3: WebOps Team */}
+                {/* Section 5: Veteran Conveners */}
+                {teamData.veteranConveners.length > 0 && (
+                    <div className="mb-24">
+                        <div className="text-center mb-10">
+                            <h2 className="text-2xl font-mono text-yellow-500 tracking-widest uppercase inline-block border-b border-yellow-500/50 pb-2">
+                                Veteran Conveners
+                            </h2>
+                        </div>
+                        <div className="flex flex-wrap justify-center gap-10">
+                            {teamData.veteranConveners.map((p, i) => <OrganizerCard key={i} {...p} />)}
+                        </div>
+                    </div>
+                )}
+
+                {/* Section 6: Student Conveners */}
+                 <div className="mb-24">
+                     <div className="text-center mb-10">
+                        <h2 className="text-2xl font-mono text-pink-500 tracking-widest uppercase inline-block border-b border-pink-500/50 pb-2">
+                             Student Conveners
+                        </h2>
+                     </div>
+                     <div className="flex flex-wrap justify-center gap-10">
+                         {teamData.conveners.map((p, i) => <OrganizerCard key={i} {...p} />)}
+                     </div>
+                </div>
+
+                 {/* Section 7: Student Co-Conveners */}
+                {teamData.studentCoConveners.length > 0 && (
+                    <div className="mb-24">
+                         <div className="text-center mb-10">
+                            <h2 className="text-2xl font-mono text-purple-500 tracking-widest uppercase inline-block border-b border-purple-500/50 pb-2">
+                                 Student Co-Conveners
+                            </h2>
+                         </div>
+                         <div className="flex flex-wrap justify-center gap-10">
+                             {teamData.studentCoConveners.map((p, i) => <OrganizerCard key={i} {...p} />)}
+                         </div>
+                    </div>
+                )}
+
+                {/* Section 8: WebOps Team */}
                 <div className="mb-24">
                      <div className="text-center mb-10">
                         <h2 className="text-2xl font-mono text-neon-cyan tracking-widest uppercase inline-block border-b border-neon-cyan/50 pb-2">
@@ -139,18 +181,6 @@ export default function Organizers() {
                      </div>
                      <div className="flex flex-wrap justify-center gap-10">
                          {teamData.webOps.map((p, i) => <OrganizerCard key={i} {...p} />)}
-                     </div>
-                </div>
-
-                {/* Section 4: Student Conveners */}
-                <div className="mb-12">
-                     <div className="text-center mb-10">
-                        <h2 className="text-2xl font-mono text-pink-500 tracking-widest uppercase inline-block border-b border-pink-500/50 pb-2">
-                             Student Conveners
-                        </h2>
-                     </div>
-                     <div className="flex flex-wrap justify-center gap-10">
-                         {teamData.conveners.map((p, i) => <OrganizerCard key={i} {...p} />)}
                      </div>
                 </div>
 
