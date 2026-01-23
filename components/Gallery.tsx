@@ -5,13 +5,20 @@ import { useRef } from "react";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 
-const images = [
+const images1 = [
   "/gallery/1.jpg",
   "/gallery/2.jpg",
   "/gallery/3.jpg",
   "/gallery/4.jpg",
   "/gallery/5.jpg",
-  "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop", // Keeping one high-quality abstract as filler until 6th image is provided
+];
+
+const images2 = [
+  "/gallery/6.jpg",
+  "/gallery/7.jpg",
+  "/gallery/8.jpg",
+  "/gallery/9.jpg",
+  "/gallery/10.jpg",
 ];
 
 export default function Gallery() {
@@ -38,11 +45,11 @@ export default function Gallery() {
       <div className="flex flex-col gap-8">
         {/* Row 1 */}
         <motion.div style={{ x: x1 }} className="flex gap-8 w-[200vw]">
-          {images.map((src, i) => (
+          {images1.map((src, i) => (
             <div key={i} className="relative w-[400px] h-[250px] md:w-[600px] md:h-[400px] rounded-xl overflow-hidden flex-shrink-0 grayscale hover:grayscale-0 transition-all duration-500">
               <Image
                 src={src}
-                alt={`Gallery ${i}`}
+                alt={`Gallery Row 1 - ${i}`}
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 400px, 600px"
@@ -54,11 +61,11 @@ export default function Gallery() {
 
         {/* Row 2 */}
         <motion.div style={{ x: x2 }} className="flex gap-8 w-[200vw] -ml-[50vw]">
-          {[...images].reverse().map((src, i) => (
+          {images2.map((src, i) => (
             <div key={i} className="relative w-[400px] h-[250px] md:w-[600px] md:h-[400px] rounded-xl overflow-hidden flex-shrink-0 grayscale hover:grayscale-0 transition-all duration-500">
                <Image
                 src={src}
-                alt={`Gallery ${i}`}
+                alt={`Gallery Row 2 - ${i}`}
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 400px, 600px"
