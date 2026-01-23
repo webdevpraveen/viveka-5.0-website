@@ -1,6 +1,5 @@
-"use client";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import React, { useRef } from "react";
 
 export const HorizontalScroll = ({ children }: { children: React.ReactNode }) => {
   const targetRef = useRef<HTMLDivElement | null>(null);
