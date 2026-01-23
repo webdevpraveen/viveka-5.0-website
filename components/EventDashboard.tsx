@@ -308,7 +308,7 @@ export default function EventDashboard() {
         <h2 className="text-xl font-mono text-neon-cyan mb-4 flex items-center gap-2 flex-shrink-0">
             <Target size={20} /> EVENT_LOGS
         </h2>
-        <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar space-y-3">
+        <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar space-y-3" data-lenis-prevent>
             {events.map((event) => (
                 <button
                     key={event.id}
