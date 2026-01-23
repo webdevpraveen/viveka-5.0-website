@@ -7,7 +7,6 @@ import About from "@/components/About";
 import WhyAttend from "@/components/WhyAttend";
 import ChiefGuest from "@/components/ChiefGuest";
 import Schedule from "@/components/Schedule";
-import EventGrid from "@/components/EventGrid";
 import Gallery from "@/components/Gallery";
 import Footer from "@/components/Footer";
 import CustomCursor from "@/components/ui/CustomCursor";
@@ -24,7 +23,6 @@ export default function Home() {
       <WhyAttend />
       <ChiefGuest />
       <Schedule />
-      <EventGrid />
       <Gallery />
       <Footer />
     </main>
