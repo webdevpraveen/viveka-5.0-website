@@ -17,6 +17,8 @@ export const metadata: Metadata = {
   description: "Official Tech Fest of SRMU - The Intelligence",
 };
 
+import Preloader from "@/components/Preloader";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -32,6 +34,7 @@ export default function RootLayout({
           "bg-background text-foreground antialiased overflow-x-hidden selection:bg-neon-cyan/30 selection:text-neon-cyan"
         )}
       >
+        <Preloader />
         <GlobalBackground />
         <SmoothScroll>{children}</SmoothScroll>
         <Analytics />
