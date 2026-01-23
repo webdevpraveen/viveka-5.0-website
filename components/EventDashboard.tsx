@@ -339,7 +339,7 @@ export default function EventDashboard() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-24 h-screen md:h-[85vh] min-h-[500px] flex flex-col md:flex-row gap-8">
+    <div className="container mx-auto px-4 py-24 h-screen md:h-[95vh] min-h-[500px] flex flex-col md:flex-row gap-8">
       
       {/* Sidebar: Data Stream */}
       <div className="w-full md:w-1/3 flex flex-col gap-4 h-[40vh] md:h-full">
