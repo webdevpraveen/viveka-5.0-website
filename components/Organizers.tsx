@@ -24,7 +24,7 @@ const teamData = {
     { 
       name: "Er. Abhishek Kumar Saxena", 
       role: "Faculty Convener (Asst. Prof - DEEE)", 
-      image: "https://srmu.ac.in/storage/teams/er.abhishek-saxena-ec-15062401481815.png",
+      image: "https://www.vivekatheintelligence.tech/static/media/22.84e79aae4013d11ad5c2.jpg",
       linkedin: "https://www.linkedin.com/in/abhishek-kumar-saxena-80a51111a/"
     },
     { 
