@@ -23,13 +23,13 @@ const teamData = {
     { 
       name: "Er. Abhishek Kumar Saxena", 
       role: "Faculty Convener (Asst. Prof - DEEE)", 
-      image: "https://media.licdn.com/dms/image/v2/D4D03AQGG-DMrNE5LWg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1669641758444?e=1742428800&v=beta&t=0C8-zUqYWU66fWwpGUZZcdpB6-wVvzu05Upp5vDhDqU",
+      image: "https://srmu.ac.in/storage/teams/er.abhishek-saxena-ec-15062401481815.png",
       linkedin: "https://www.linkedin.com/in/abhishek-kumar-saxena-80a51111a/"
     },
     { 
       name: "Dr. Mrityunjay Rai", 
       role: "Faculty Convener (Asst. Prof - DEEE)", 
-      image: "https://media.licdn.com/dms/image/v2/D5603AQFBXGMeIYY7rA/profile-displayphoto-crop_800_800/B56Zs894x7IEAI-/0/1766254418458?e=1770854400&v=beta&t=a6UvPBpNDosIqXAOhc_DQldgjf_TtlHUjodJsUC-zTo",
+      image: "https://srmu.ac.in/storage/teams/dr.-mritumjay-rai-ec--14062401043979.jpg",
       linkedin: "https://www.linkedin.com/in/dr-mritunjay-rai-36b85118/"
     },
     { 
