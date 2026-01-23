@@ -92,7 +92,19 @@ export default function Organizers() {
                      </div>
                 </div>
 
-                {/* Section 2: Core Committee */}
+                {/* Section 2: Patron */}
+                <div className="mb-24">
+                     <div className="text-center mb-10">
+                        <h2 className="text-2xl font-mono text-white tracking-widest uppercase inline-block border-b border-white/20 pb-2">
+                             Patrons
+                        </h2>
+                     </div>
+                     <div className="flex flex-wrap justify-center gap-10">
+                         {teamData.patrons.map((p, i) => <OrganizerCard key={i} {...p} />)}
+                     </div>
+                </div>
+
+                {/* Section 3: Core Committee */}
                 <div className="mb-24">
                      <div className="text-center mb-10">
                         <h2 className="text-2xl font-mono text-white tracking-widest uppercase inline-block border-b border-white/20 pb-2">
@@ -100,7 +112,6 @@ export default function Organizers() {
                         </h2>
                      </div>
                      <div className="flex flex-wrap justify-center gap-10">
-                         {teamData.patrons.map((p, i) => <OrganizerCard key={i} {...p} />)}
                          {teamData.faculty.map((p, i) => <OrganizerCard key={i} {...p} />)}
                      </div>
                 </div>
