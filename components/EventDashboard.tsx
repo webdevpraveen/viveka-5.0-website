@@ -301,7 +301,7 @@ export default function EventDashboard() {
   const activeEvent = events.find((e) => e.id === activeId) || events[0];
 
   return (
-    <div className="container mx-auto px-4 py-24 h-screen md:h-[85vh] min-h-[800px] flex flex-col md:flex-row gap-8">
+    <div className="container mx-auto px-4 py-24 h-screen md:h-[85vh] min-h-[500px] flex flex-col md:flex-row gap-8">
       
       {/* Sidebar: Data Stream */}
       <div className="w-full md:w-1/3 flex flex-col gap-4 h-[40vh] md:h-full">
@@ -359,7 +359,7 @@ export default function EventDashboard() {
                     className="relative z-10 h-full flex flex-col"
                 >
                     {/* Hero Image Area - Fixed Height */}
-                    <div className="h-[200px] md:h-[300px] relative w-full flex-shrink-0 overflow-hidden border-b border-white/10">
+                    <div className="h-[150px] md:h-[300px] relative w-full flex-shrink-0 overflow-hidden border-b border-white/10">
                         <img 
                             src={activeEvent.image} 
                             alt={activeEvent.title} 
