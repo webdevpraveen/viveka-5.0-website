@@ -301,20 +301,20 @@ export default function EventDashboard() {
   const activeEvent = events.find((e) => e.id === activeId) || events[0];
 
   return (
-    <div className="container mx-auto px-4 py-24 min-h-screen flex flex-col md:flex-row gap-8">
+    <div className="container mx-auto px-4 py-24 h-screen md:h-[85vh] min-h-[800px] flex flex-col md:flex-row gap-8">
       
       {/* Sidebar: Data Stream */}
-      <div className="w-full md:w-1/3 flex flex-col gap-4">
-        <h2 className="text-xl font-mono text-neon-cyan mb-4 flex items-center gap-2">
+      <div className="w-full md:w-1/3 flex flex-col gap-4 h-[40vh] md:h-full">
+        <h2 className="text-xl font-mono text-neon-cyan mb-4 flex items-center gap-2 flex-shrink-0">
             <Target size={20} /> EVENT_LOGS
         </h2>
-        <div className="flex flex-col gap-3 h-[60vh] md:h-auto overflow-y-auto pr-2 custom-scrollbar">
+        <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar space-y-3">
             {events.map((event) => (
                 <button
                     key={event.id}
                     onClick={() => setActiveId(event.id)}
                     className={cn(
-                        "group relative p-4 text-left border rounded-lg transition-all duration-300",
+                        "w-full group relative p-4 text-left border rounded-lg transition-all duration-300 flex-shrink-0",
                         activeId === event.id 
                             ? "border-neon-cyan bg-neon-cyan/5 shadow-[inset_0_0_20px_rgba(0,240,255,0.1)]" 
                             : "border-white/10 bg-black/20 hover:border-white/30"
@@ -343,11 +343,11 @@ export default function EventDashboard() {
       </div>
 
       {/* Mainframe: Details View */}
-      <div className="w-full md:w-2/3 relative">
-         <div className="absolute inset-0 border border-white/10 rounded-2xl bg-black/40 backdrop-blur-md overflow-hidden">
+      <div className="w-full md:w-2/3 relative h-full flex flex-col">
+         <div className="absolute inset-0 border border-white/10 rounded-2xl bg-black/40 backdrop-blur-md overflow-hidden flex flex-col">
             
             {/* Background Grid */}
-            <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:30px_30px]" />
+            <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:30px_30px] z-0" />
 
             <AnimatePresence mode="wait">
                 <motion.div 
@@ -358,8 +358,8 @@ export default function EventDashboard() {
                     transition={{ duration: 0.3 }}
                     className="relative z-10 h-full flex flex-col"
                 >
-                    {/* Hero Image Area */}
-                    <div className="h-[250px] md:h-[350px] relative w-full overflow-hidden border-b border-white/10">
+                    {/* Hero Image Area - Fixed Height */}
+                    <div className="h-[200px] md:h-[300px] relative w-full flex-shrink-0 overflow-hidden border-b border-white/10">
                         <img 
                             src={activeEvent.image} 
                             alt={activeEvent.title} 
