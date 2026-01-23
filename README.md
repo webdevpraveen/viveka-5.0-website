@@ -129,5 +129,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 <div align="center">
-  Built with ❤️ by the Viveka 5.0 Web Team
+  Built with ❤️ by Shrinjay Shresth (Veteran Convener)
 </div>
