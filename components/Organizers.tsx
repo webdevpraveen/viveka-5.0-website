@@ -19,7 +19,7 @@ const teamData = {
     { 
       name: "Dr. Veena Singh", 
       role: "Fest In-Charge (HoD & Associate Prof.)", 
-      image: "https://media.licdn.com/dms/image/v2/C5603AQGzqTRu2zGEwQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1608385269429?e=1770854400&v=beta&t=dItxiAPLLITrsr_zpMLWDdazo2ON-x5v1MbYc582340" 
+      image: "https://srmu.ac.in/storage/teams/1746008504048-sh7wu9-2-0-removebg-preview-1--01052510262614.png" 
     },
     { 
       name: "Er. Abhishek Kumar Saxena", 
