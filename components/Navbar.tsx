@@ -70,7 +70,7 @@ export default function Navbar() {
 
           {/* CTA */}
           <button className="hidden md:block px-5 py-2 bg-white/10 hover:bg-neon-cyan hover:text-black rounded-full text-sm font-medium transition-all duration-300 border border-white/20">
-            Register
+            Coming Soon
           </button>
           
           {/* Mobile Menu Toggle */}

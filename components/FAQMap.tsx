@@ -19,7 +19,7 @@ const faqs = [
   {
     id: "03",
     question: "REGISTRATION PROTOCOL",
-    answer: "Secure your slot via the 'Register' module in the event dashboard. Access is open to all university students."
+    answer: "Registrations will be opening soon. Keep an eye on the 'Coming Soon' module in the event dashboard. Access will be open to all university students."
   },
   {
     id: "04",

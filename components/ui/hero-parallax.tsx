@@ -115,7 +115,7 @@ export const Header = () => {
       <Countdown />
 
        <button className="mt-8 px-8 py-3 rounded-full bg-neon-cyan text-black font-bold hover:scale-105 transition-transform shadow-[0_0_20px_rgba(0,240,255,0.3)] hover:shadow-[0_0_40px_rgba(0,240,255,0.6)] z-20 relative cursor-pointer pointer-events-auto">
-            Register Now
+            Coming Soon
        </button>
     </div>
   );
