@@ -13,14 +13,16 @@ const teamData = {
   ],
   patrons: [
     { name: "Prof. (Dr.) Vijay Tiwari", role: "Vice Chancellor", image: "https://srmu.ac.in/storage/teams/sr7d9556-03122510174995.JPG" },
-    { name: "Prof. R.K. Jaiswal", role: "Director General", image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop" }
+    
   ],
-  faculty: [
+  festInCharge: [
     { 
       name: "Dr. Veena Singh", 
       role: "Fest In-Charge (HoD & Associate Prof.)", 
       image: "https://srmu.ac.in/storage/teams/1746008504048-sh7wu9-2-0-removebg-preview-1--01052510262614.png" 
     },
+  ],
+  faculty: [
     { 
       name: "Er. Abhishek Kumar Saxena", 
       role: "Faculty Convener (Asst. Prof - DEEE)", 
@@ -104,7 +106,19 @@ export default function Organizers() {
                      </div>
                 </div>
 
-                {/* Section 3: Core Committee */}
+                {/* Section 3: Fest In-Charge */}
+                <div className="mb-24">
+                     <div className="text-center mb-10">
+                        <h2 className="text-2xl font-mono text-white tracking-widest uppercase inline-block border-b border-white/20 pb-2">
+                             Fest In-Charge
+                        </h2>
+                     </div>
+                     <div className="flex flex-wrap justify-center gap-10">
+                         {teamData.festInCharge.map((p, i) => <OrganizerCard key={i} {...p} />)}
+                     </div>
+                </div>
+
+                {/* Section 4: Core Committee */}
                 <div className="mb-24">
                      <div className="text-center mb-10">
                         <h2 className="text-2xl font-mono text-white tracking-widest uppercase inline-block border-b border-white/20 pb-2">
