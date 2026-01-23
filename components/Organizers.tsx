@@ -12,7 +12,7 @@ const teamData = {
     { name: "Arrushi Agarwal", role: "University Advisor", image: "https://srmu.ac.in/storage/teams/ms.-arrushi-agarwal-university-advisor-12012403120614.jpg" },
   ],
   patrons: [
-    { name: "Prof. (Dr.) Vijay Tiwari", role: "Vice Chancellor", image: "https://srmu.ac.in/storage/teams/sr7d9556-03122510174995.JPG" },
+    { name: "Prof. (Dr.) Vikas Misra", role: "Vice Chancellor", image: "https://srmu.ac.in/storage/teams/sr7d9556-03122510174995.JPG" },
     { name: "Prof. R.K. Jaiswal", role: "Director General", image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop" }
   ],
   faculty: [
