@@ -18,7 +18,7 @@ const teamData = {
     { 
       name: "Dr. Veena Singh", 
       role: "Fest In-Charge (HoD & Associate Prof.)", 
-      image: "https://media.licdn.com/dms/image/v2/C5603AQGzqTRu2zGEwQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1608385269429?e=1742428800&v=beta&t=W_yr0aIG3172JulJzx98wWrThC_g4ZEqEP4VyYHg2sw" 
+      image: "https://media.licdn.com/dms/image/v2/C5603AQGzqTRu2zGEwQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1608385269429?e=1770854400&v=beta&t=dItxiAPLLITrsr_zpMLWDdazo2ON-x5v1MbYc582340" 
     },
     { 
       name: "Er. Abhishek Kumar Saxena", 
@@ -29,7 +29,7 @@ const teamData = {
     { 
       name: "Dr. Mrityunjay Rai", 
       role: "Faculty Convener (Asst. Prof - DEEE)", 
-      image: "https://media.licdn.com/dms/image/v2/D4D03AQHwYGPh-YvESQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1686678021631?e=1742428800&v=beta&t=V_PYfqC9pjbRSKu3P64JqAIPh255RlT18M4zpz9r0Yg",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQFBXGMeIYY7rA/profile-displayphoto-crop_800_800/B56Zs894x7IEAI-/0/1766254418458?e=1770854400&v=beta&t=a6UvPBpNDosIqXAOhc_DQldgjf_TtlHUjodJsUC-zTo",
       linkedin: "https://www.linkedin.com/in/dr-mritunjay-rai-36b85118/"
     },
     { 
