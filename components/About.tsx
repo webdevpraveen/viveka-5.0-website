@@ -1,122 +1,92 @@
 "use client";
-
-import { motion } from "framer-motion";
-import { Instagram, Linkedin, Facebook } from "lucide-react";
+import React from "react";
+import { StickyScroll } from "./ui/sticky-scroll-reveal";
 import Image from "next/image";
+
+const content = [
+  {
+    title: "SRMU: The Foundation",
+    description: (
+      <>
+        <p className="mb-4">
+            <strong className="text-neon-cyan">Shri Ramswaroop Memorial University (SRMU)</strong> stands as a beacon of excellence in education and research. Founded with a vision to create ethical professionals, it offers a diverse range of programs across multiple disciplines.
+        </p>
+        <p>
+            With the motto <em>"Chase Reality…Dreams Will Follow"</em>, SRMU creates an ecosystem where academic rigour meets holistic development, fostering the leaders of tomorrow.
+        </p>
+      </>
+    ),
+    content: (
+      <div className="h-full w-full  flex items-center justify-center text-white">
+        <Image
+          src="/srmu.png"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="SRMU Campus"
+        />
+      </div>
+    ),
+  },
+  {
+    title: "Viveka 5.0: The Intelligence",
+    description: (
+      <>
+        <p className="mb-4">
+           The 5th iteration of SRMU's flagship Techno-Cultural Fest. <strong>Viveka</strong> is not just an event; it's a movement. A convergence of code, creativity, and culture.
+        </p>
+        <p>
+            Under the theme <span className="text-neon-cyan">"The Intelligence"</span>, we explore the frontiers of AI, Robotics, and human ingenuity. It is a platform for students to innovate, compete, and showcase their brilliance on a grand stage.
+        </p>
+      </>
+    ),
+    content: (
+      <div className="h-full w-full  flex items-center justify-center text-white p-4 bg-black/50">
+        <Image
+          src="/logo.png"
+          width={300}
+          height={300}
+          className="h-auto w-full object-contain"
+          alt="Viveka Logo"
+        />
+      </div>
+    ),
+  },
+  {
+    title: "The Vision",
+    description: (
+      <>
+        <p className="mb-4">
+            To ignite the spark of innovation in every student. We believe in learning beyond the classroom, where practical application meets theoretical knowledge.
+        </p>
+        <p>
+            Join us on <strong>6th & 7th February 2025</strong> as we celebrate technology, art, and the spirit of competition. The future is here, and it begins with you.
+        </p>
+      </>
+    ),
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        <div className="text-6xl font-bold font-space-grotesk text-neon-cyan">
+             2025
+        </div>
+      </div>
+    ),
+  },
+];
 
 export default function About() {
   return (
-    <section id="about" className="relative py-24 bg-[#020617] overflow-hidden">
+    <section className="py-20 bg-[#020617] overflow-hidden" id="about">
+      <div className="container mx-auto px-4 mb-10 text-center">
+         <h2 className="text-4xl md:text-5xl font-bold text-white font-space-grotesk mb-4">
+             Discover <span className="text-neon-cyan">The Legacy</span>
+         </h2>
+         <p className="text-gray-400 max-w-2xl mx-auto">
+             From a premier university to a premier technical festival. Scroll to explore our journey.
+         </p>
+      </div>
       
-      {/* --- Section 1: About SRMU --- */}
-      <div className="container mx-auto px-4 mb-32 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            
-            {/* Text Content */}
-            <motion.div
-                initial={{ opacity: 0, x: -50 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true, margin: "-100px" }}
-                transition={{ duration: 0.8 }}
-                className="relative"
-            >
-                <h4 className="text-2xl font-bold text-gray-200 mb-2">About</h4>
-                
-                {/* Outlined Text Effect */}
-                <h1 className="text-7xl md:text-9xl font-bold tracking-tighter mb-8" 
-                    style={{ 
-                        WebkitTextStroke: "1px rgba(255,255,255,0.3)", 
-                        color: "transparent" 
-                    }}>
-                    SRMU
-                </h1>
-
-                <div className="space-y-6 text-gray-400 leading-relaxed text-sm md:text-base text-justify">
-                    <p>
-                        <strong className="text-white">Shri Ramswaroop Memorial University (SRMU)</strong> aims to be a globally recognized leader in education, research, and preparing ethical professionals. Founded in 1999, it offers a wide range of undergraduate, postgraduate, and doctoral programs across various disciplines. SRMU boasts excellent faculty, industry collaborations, and innovative pedagogy, ensuring its programs are relevant and enhance employability.
-                    </p>
-                    <p>
-                        With a focus on holistic development, students gain practical exposure, attend guest lectures, and participate in co-curricular activities. The university also provides scholarships and outreach programs, creating a well-rounded educational experience. With its <em className="text-white text-lg">"Chase Reality…Dreams Will Follow"</em> motto, SRMU strives to set a benchmark in higher education.
-                    </p>
-                </div>
-
-                <div className="flex gap-4 mt-8">
-                    <a href="#" className="p-2 rounded-full bg-gradient-to-br from-purple-600 to-pink-600 text-white hover:scale-110 transition-transform">
-                        <Instagram size={20} />
-                    </a>
-                    <a href="#" className="p-2 rounded-full bg-blue-600 text-white hover:scale-110 transition-transform">
-                        <Linkedin size={20} />
-                    </a>
-                    <a href="#" className="p-2 rounded-full bg-blue-500 text-white hover:scale-110 transition-transform">
-                        <Facebook size={20} />
-                    </a>
-                </div>
-            </motion.div>
-
-            {/* Image Side with 3D Reveal */}
-            <motion.div
-                initial={{ opacity: 0, scale: 0.8, rotateY: 30 }}
-                whileInView={{ opacity: 1, scale: 1, rotateY: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, type: "spring" }}
-                className="relative perspective-1000"
-            >
-                <div className="relative rounded-2xl overflow-hidden border-4 border-white/5 shadow-2xl group">
-                    <div className="absolute inset-0 bg-neon-cyan/10 group-hover:bg-transparent transition-colors z-10" />
-                    <Image 
-                        src="/srmu.png" 
-                        alt="SRMU Campus" 
-                        width={800} 
-                        height={600} 
-                        className="w-full h-auto object-cover transform group-hover:scale-110 transition-transform duration-700" 
-                    />
-                    
-                    {/* Decorative Corner */}
-                    <div className="absolute top-4 right-4 w-20 h-20 border-t-4 border-r-4 border-neon-cyan/50" />
-                    <div className="absolute bottom-4 left-4 w-20 h-20 border-b-4 border-l-4 border-neon-cyan/50" />
-                </div>
-            </motion.div>
-        </div>
-      </div>
-
-       {/* --- Section 2: About Viveka --- */}
-      <div className="container mx-auto px-4 relative z-10">
-         <motion.div 
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="rounded-[3rem] bg-gradient-to-br from-[#0f172a] to-[#020617] border border-white/10 p-8 md:p-16 relative overflow-hidden"
-         >
-             {/* Background Glow */}
-             <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-neon-cyan/5 rounded-full blur-[100px] pointer-events-none" />
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                 <div>
-                     <h4 className="text-xl font-bold text-gray-300 mb-2">About</h4>
-                     <h2 className="text-5xl md:text-7xl font-bold font-space-grotesk text-white mb-6">
-                        VIVEKA <br/>
-                        <span className="text-neon-cyan">5.0</span>
-                     </h2>
-                 </div>
-                 
-                 <div className="flex flex-col justify-center space-y-6 text-gray-400 text-lg leading-relaxed">
-                     <p>
-                        <strong className="text-white">VIVEKA: The Intelligence 5.0</strong> is the Annual Techfest of <span className="text-neon-cyan">Shri Ramswaroop Memorial University</span> organized under the initiative of Tech Fusion Club. Unleash your technical skills in the vast horizon of events.
-                     </p>
-                     <p>
-                        Viveka 5.0 promises a thrilling experience for all tech enthusiasts. We bring to you a platform to innovate, create, and compete with the best minds in the country.
-                     </p>
-                     
-                     <div className="pt-4">
-                        <button className="px-8 py-3 rounded-full border border-neon-cyan text-neon-cyan font-bold hover:bg-neon-cyan hover:text-black transition-all shadow-[0_0_20px_rgba(0,240,255,0.2)]">
-                            Explore Events
-                        </button>
-                     </div>
-                 </div>
-            </div>
-         </motion.div>
-      </div>
-
+      <StickyScroll content={content} />
     </section>
   );
 }
