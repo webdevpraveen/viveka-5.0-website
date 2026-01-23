@@ -5,25 +5,7 @@ import OrganizerCard from "./OrganizerCard";
 import { TracingBeam } from "./ui/TracingBeam";
 import { SparklesCore } from "./ui/Sparkles";
 
-interface Member {
-  name: string;
-  role: string;
-  image: string;
-  linkedin?: string;
-}
-
-interface TeamData {
-  chiefPatrons: Member[];
-  patrons: Member[];
-  festInCharge: Member[];
-  faculty: Member[];
-  veteranConveners: Member[];
-  conveners: Member[];
-  studentCoConveners: Member[];
-  webOps: Member[];
-}
-
-const teamData: TeamData = {
+const teamData = {
   chiefPatrons: [
     { name: "Er. Pankaj Agarwal", role: "Chancellor", image: "https://srmu.ac.in/storage/teams/er-pankaj-agarwal-12012403111859.jpg" },
     { name: "Er. Pooja Agarwal", role: "Pro Chancellor", image: "https://srmu.ac.in/storage/teams/er.-pooja-agarwal-pro-chancellor--12012403114783.jpg" },
@@ -66,16 +48,22 @@ const teamData: TeamData = {
       linkedin: "https://www.linkedin.com/in/neeta-bhusal-13708037/"
     }
   ],
-  veteranConveners: [],
+  webOps: [
+    { name: "Shrinjay Shresth", role: "WebOps Lead", image: "/shrinjay.png" }, 
+  ],
+  veterans: [
+     // Placeholders - waiting for data
+     { name: "Veteran Name", role: "Veteran Convener", image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=2000&auto=format&fit=crop" },
+  ],
   conveners: [
     { name: "Atam Prakash", role: "Student Convener", image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=2000&auto=format&fit=crop" },
     { name: "Ayushman Singh", role: "Student Convener", image: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=2000&auto=format&fit=crop" },
     { name: "Deepika", role: "Student Convener", image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop" }
   ],
-  studentCoConveners: [],
-  webOps: [
-    { name: "Shrinjay Shresth", role: "WebOps Lead", image: "/shrinjay.png" }, 
-  ],
+  coConveners: [
+     // Placeholders - waiting for data
+    { name: "Co-Convener Name", role: "Student Co-Convener", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=2000&auto=format&fit=crop" },
+  ]
 };
 
 export default function Organizers() {
@@ -151,21 +139,19 @@ export default function Organizers() {
                 </div>
 
                 {/* Section 5: Veteran Conveners */}
-                {teamData.veteranConveners.length > 0 && (
-                    <div className="mb-24">
-                        <div className="text-center mb-10">
-                            <h2 className="text-2xl font-mono text-yellow-500 tracking-widest uppercase inline-block border-b border-yellow-500/50 pb-2">
-                                Veteran Conveners
-                            </h2>
-                        </div>
-                        <div className="flex flex-wrap justify-center gap-10">
-                            {teamData.veteranConveners.map((p, i) => <OrganizerCard key={i} {...p} />)}
-                        </div>
-                    </div>
-                )}
+                <div className="mb-24">
+                     <div className="text-center mb-10">
+                        <h2 className="text-2xl font-mono text-yellow-500 tracking-widest uppercase inline-block border-b border-yellow-500/50 pb-2">
+                             Veteran Conveners
+                        </h2>
+                     </div>
+                     <div className="flex flex-wrap justify-center gap-10">
+                         {teamData.veterans.map((p, i) => <OrganizerCard key={i} {...p} />)}
+                     </div>
+                </div>
 
                 {/* Section 6: Student Conveners */}
-                 <div className="mb-24">
+                <div className="mb-24">
                      <div className="text-center mb-10">
                         <h2 className="text-2xl font-mono text-pink-500 tracking-widest uppercase inline-block border-b border-pink-500/50 pb-2">
                              Student Conveners
@@ -176,22 +162,20 @@ export default function Organizers() {
                      </div>
                 </div>
 
-                 {/* Section 7: Student Co-Conveners */}
-                {teamData.studentCoConveners.length > 0 && (
-                    <div className="mb-24">
-                         <div className="text-center mb-10">
-                            <h2 className="text-2xl font-mono text-purple-500 tracking-widest uppercase inline-block border-b border-purple-500/50 pb-2">
-                                 Student Co-Conveners
-                            </h2>
-                         </div>
-                         <div className="flex flex-wrap justify-center gap-10">
-                             {teamData.studentCoConveners.map((p, i) => <OrganizerCard key={i} {...p} />)}
-                         </div>
-                    </div>
-                )}
+                {/* Section 7: Student Co-Conveners */}
+                <div className="mb-24">
+                     <div className="text-center mb-10">
+                        <h2 className="text-2xl font-mono text-purple-500 tracking-widest uppercase inline-block border-b border-purple-500/50 pb-2">
+                             Student Co-Conveners
+                        </h2>
+                     </div>
+                     <div className="flex flex-wrap justify-center gap-10">
+                         {teamData.coConveners.map((p, i) => <OrganizerCard key={i} {...p} />)}
+                     </div>
+                </div>
 
                 {/* Section 8: WebOps Team */}
-                <div className="mb-24">
+                <div className="mb-12">
                      <div className="text-center mb-10">
                         <h2 className="text-2xl font-mono text-neon-cyan tracking-widest uppercase inline-block border-b border-neon-cyan/50 pb-2">
                              WebOps Team
