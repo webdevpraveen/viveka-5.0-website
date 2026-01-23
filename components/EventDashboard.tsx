@@ -426,12 +426,19 @@ export default function EventDashboard() {
                                     <span className="block text-lg font-bold text-white">{activeEvent.teamSize}</span>
                                 </div>
 
-                                <button className="w-full py-4 bg-neon-cyan text-black font-bold uppercase tracking-wider rounded transition-all hover:bg-white hover:scale-[1.02] flex items-center justify-center gap-2 group">
+                                <button className="hidden md:flex w-full py-4 bg-neon-cyan text-black font-bold uppercase tracking-wider rounded transition-all hover:bg-white hover:scale-[1.02] items-center justify-center gap-2 group">
                                     <Zap size={18} className="group-hover:fill-black" /> Register
                                 </button>
                             </div>
 
                         </div>
+                    </div>
+
+                    {/* Mobile Floating Footer */}
+                    <div className="p-4 border-t border-white/10 bg-black/80 backdrop-blur-md md:hidden shrink-0 z-20">
+                         <button className="w-full py-3 bg-neon-cyan text-black font-bold uppercase tracking-wider rounded transition-all active:scale-95 flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(0,240,255,0.3)]">
+                             <Zap size={18} fill="black" /> Register Now
+                         </button>
                     </div>
                 </motion.div>
             </AnimatePresence>
