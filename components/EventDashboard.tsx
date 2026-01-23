@@ -28,7 +28,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?q=80&w=2070&auto=format&fit=crop",
       category: "Logic",
       teamSize: "Individual",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Prizes"],
       location: "TBA",
       timing: "TBA",
@@ -41,7 +41,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop",
       category: "Tech",
       teamSize: "Individual",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Exciting Awards"],
       location: "TBA",
       timing: "TBA",
@@ -54,7 +54,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1517420879524-86d64ac2f339?q=80&w=1926&auto=format&fit=crop",
       category: "Robotics",
       teamSize: "Team",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Prizes"],
       location: "Soccer Arena",
       timing: "TBA",
@@ -67,7 +67,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=2070&auto=format&fit=crop",
       category: "Robotics",
       teamSize: "Team",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Cash Prizes"],
       location: "War Arena",
       timing: "TBA",
@@ -80,7 +80,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop",
       category: "Gaming",
       teamSize: "Squad",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Pool Prize"],
       location: "E-Sports Arena",
       timing: "TBA",
@@ -93,7 +93,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1593305841991-05c29736f87e?q=80&w=2070&auto=format&fit=crop",
       category: "Gaming",
       teamSize: "Squad",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Pool Prize"],
       location: "E-Sports Arena",
       timing: "TBA",
@@ -106,7 +106,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?q=80&w=2006&auto=format&fit=crop",
       category: "Robotics",
       teamSize: "Team",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Prizes"],
       location: "Track Area",
       timing: "TBA",
@@ -119,7 +119,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1506947411487-a56738267384?q=80&w=1974&auto=format&fit=crop",
       category: "Robotics",
       teamSize: "Individual/Team",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Prizes"],
       location: "Open Ground",
       timing: "TBA",
@@ -145,7 +145,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=2070&auto=format&fit=crop",
       category: "Robotics",
       teamSize: "Team",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Prizes"],
       location: "Water Body",
       timing: "TBA",
@@ -158,7 +158,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=2070&auto=format&fit=crop",
       category: "Coding",
       teamSize: "Individual",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Prizes"],
       location: "TBA",
       timing: "TBA",
@@ -171,7 +171,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1504384308090-c54be3855833?q=80&w=1974&auto=format&fit=crop",
       category: "Tech",
       teamSize: "Team of 2-4",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Grand Prize Pool"],
       location: "Innovation Hub",
       timing: "24 Hours",
@@ -184,7 +184,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=2070&auto=format&fit=crop",
       category: "Creative",
       teamSize: "Individual",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Prizes"],
       location: "TBA",
       timing: "TBA",
@@ -197,7 +197,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1535378437327-b7149236addf?q=80&w=2071&auto=format&fit=crop",
       category: "Robotics",
       teamSize: "Team",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Prizes"],
       location: "Maze Area",
       timing: "TBA",
@@ -210,7 +210,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1518364538800-6bae3c2ea0f2?q=80&w=2071&auto=format&fit=crop",
       category: "Creative",
       teamSize: "Team",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Prizes"],
       location: "TBA",
       timing: "TBA",
@@ -223,7 +223,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop",
       category: "Fun",
       teamSize: "Individual",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Prizes"],
       location: "TBA",
       timing: "TBA",
@@ -236,7 +236,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1559145694-850d986b8c9d?q=80&w=2070&auto=format&fit=crop",
       category: "Fun",
       teamSize: "Individual",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Prizes"],
       location: "TBA",
       timing: "TBA",
@@ -249,7 +249,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1544197150-b99a580bbcbf?q=80&w=2071&auto=format&fit=crop",
       category: "Workshop",
       teamSize: "Individual",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Certificates"],
       location: "Seminar Hall",
       timing: "TBA",
@@ -262,7 +262,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?q=80&w=1974&auto=format&fit=crop",
       category: "Workshop",
       teamSize: "Individual",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Certificates"],
       location: "Seminar Hall",
       timing: "TBA",
@@ -288,7 +288,7 @@ const events: EventData[] = [
       image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070&auto=format&fit=crop",
       category: "Coding",
       teamSize: "Team (Max 2)",
-      fee: "Register",
+      fee: "Coming Soon",
       prizes: ["Prizes"],
       location: "Labs",
       timing: "2-3 Hours",
@@ -484,7 +484,7 @@ export default function EventDashboard() {
                                 </div>
 
                                 <button className="hidden md:flex w-full py-4 bg-neon-cyan text-black font-bold uppercase tracking-wider rounded transition-all hover:bg-white hover:scale-[1.02] items-center justify-center gap-2 group">
-                                    <Zap size={18} className="group-hover:fill-black" /> Register
+                                    <Zap size={18} className="group-hover:fill-black" /> Coming Soon
                                 </button>
                             </div>
 
@@ -494,7 +494,7 @@ export default function EventDashboard() {
                     {/* Mobile Floating Footer */}
                     <div className="p-4 border-t border-white/10 bg-black/80 backdrop-blur-md md:hidden shrink-0 z-20">
                          <button className="w-full py-3 bg-neon-cyan text-black font-bold uppercase tracking-wider rounded transition-all active:scale-95 flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(0,240,255,0.3)]">
-                             <Zap size={18} fill="black" /> Register Now
+                             <Zap size={18} fill="black" /> Coming Soon
                          </button>
                     </div>
                 </motion.div>
