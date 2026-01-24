@@ -7,19 +7,20 @@ import { SparklesCore } from "./ui/Sparkles";
 
 const teamData = {
   chiefPatrons: [
-    { name: "Er. Pankaj Agarwal", role: "Chancellor", image: "https://srmu.ac.in/storage/teams/er-pankaj-agarwal-12012403111859.jpg" },
+    { name: "Er. Pankaj Agarwal", role: "Chancellor", image: "https://srmu.ac.in/storage/teams/er-pankaj-agarwal-12012403111859.jpg", linkedin: "https://www.linkedin.com/in/pankaj-agarwal-b72ab321/" },
     { name: "Er. Pooja Agarwal", role: "Pro Chancellor", image: "https://srmu.ac.in/storage/teams/er.-pooja-agarwal-pro-chancellor--12012403114783.jpg" },
-    { name: "Arrushi Agarwal", role: "University Advisor", image: "/arrushi.png" },
+    { name: "Arrushi Agarwal", role: "University Advisor", image: "/arrushi.png", linkedin: "https://www.linkedin.com/in/arrushi-agarwal/" },
   ],
   patrons: [
-    { name: "Prof. (Dr.) Vijay Tiwari", role: "Vice Chancellor", image: "https://srmu.ac.in/storage/teams/sr7d9556-03122510174995.JPG" },
+    { name: "Prof. (Dr.) Vijay Tiwari", role: "Vice Chancellor", image: "https://srmu.ac.in/storage/teams/sr7d9556-03122510174995.JPG", linkedin: "https://www.linkedin.com/in/dr-vijay-kumar-tiwari/" },
     
   ],
   festInCharge: [
     { 
       name: "Dr. Veena Singh", 
       role: "Fest In-Charge (HoD & Associate Prof.)", 
-      image: "https://srmu.ac.in/storage/teams/1746008504048-sh7wu9-2-0-removebg-preview-1--01052510262614.png" 
+      image: "https://srmu.ac.in/storage/teams/1746008504048-sh7wu9-2-0-removebg-preview-1--01052510262614.png",
+      linkedin: "https://www.linkedin.com/in/prof-dr-veena-singh-26a48b196/"
     },
   ],
   faculty: [
