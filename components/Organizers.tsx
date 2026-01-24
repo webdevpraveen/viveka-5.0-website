@@ -9,7 +9,7 @@ const teamData = {
   chiefPatrons: [
     { name: "Er. Pankaj Agarwal", role: "Chancellor", image: "https://srmu.ac.in/storage/teams/er-pankaj-agarwal-12012403111859.jpg" },
     { name: "Er. Pooja Agarwal", role: "Pro Chancellor", image: "https://srmu.ac.in/storage/teams/er.-pooja-agarwal-pro-chancellor--12012403114783.jpg" },
-    { name: "Arrushi Agarwal", role: "University Advisor", image: "https://media.licdn.com/dms/image/v2/D5603AQHzY8SkxePjbw/profile-displayphoto-scale_400_400/B56ZpsxJoIHQAg-/0/1762761419481?e=1770854400&v=beta&t=qPx4PM9YVlasf5Nwl9i4oAwXCP1P_PmQLivqOzeXQiI" },
+    { name: "Arrushi Agarwal", role: "University Advisor", image: "/arrushi.png" },
   ],
   patrons: [
     { name: "Prof. (Dr.) Vijay Tiwari", role: "Vice Chancellor", image: "https://srmu.ac.in/storage/teams/sr7d9556-03122510174995.JPG" },
