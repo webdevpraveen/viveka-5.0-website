@@ -10,7 +10,7 @@ const content = [
     description: (
       <>
         <p className="mb-4">
-            Founded in 1999, <strong className="text-neon-cyan">Shri Ramswaroop Memorial University (SRMU)</strong> has evolved into a powerhouse of education and research. With a sprawling campus and state-of-the-art facilities, it fosters an environment where innovation thrives.
+            Established in 2012 with a legacy dating back to 1999, <strong className="text-neon-cyan">Shri Ramswaroop Memorial University (SRMU)</strong> has evolved into a powerhouse of education and research. With a sprawling campus and state-of-the-art facilities, it fosters an environment where innovation thrives.
         </p>
         <div className="relative h-64 w-full rounded-2xl overflow-hidden border border-white/10 shadow-2xl mt-8 group">
             <Image src="/srmu.png" fill className="object-cover group-hover:scale-110 transition-transform duration-700" alt="SRMU Campus" />
