@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code, Users, Zap, Music } from "lucide-react";
+import { Code, Users, Zap, Smile } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const reasons = [
@@ -14,9 +14,9 @@ const reasons = [
     className: "md:col-span-2"
   },
   {
-    icon: Music,
-    title: "Cultural Extravaganza",
-    description: "Witness electrifying performances, fashion shows, and star nights that will leave you spellbound.",
+    icon: Smile,
+    title: "Fun Events",
+    description: "Participate in engaging activities, interactive games, and entertainment that bring pure joy and excitement.",
     gradient: "from-purple-500/20 to-pink-500/20",
     border: "border-purple-500/30",
     className: "md:col-span-1"
