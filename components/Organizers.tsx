@@ -52,8 +52,11 @@ const teamData = {
     { name: "Shrinjay Shresth", role: "WebOps Lead", image: "/shrinjay.png" }, 
   ],
   veterans: [
-     // Placeholders - waiting for data
-     { name: "Veteran Name", role: "Veteran Convener", image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=2000&auto=format&fit=crop" },
+    { name: "Pranshu Agrahari", role: "Veteran Convener", image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=2000&auto=format&fit=crop" },
+    { name: "Shrinjay Shresth", role: "Veteran Convener", image: "/shrinjay-veteran.png" },
+    { name: "Adii Chandra", role: "Veteran Convener", image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=2000&auto=format&fit=crop" },
+    { name: "Nandini Verma", role: "Veteran Convener", image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=2000&auto=format&fit=crop" },
+    { name: "Nitin Jaiswal", role: "Veteran Convener", image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=2000&auto=format&fit=crop" },
   ],
   conveners: [
     { name: "Atam Prakash", role: "Student Convener", image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=2000&auto=format&fit=crop" },
