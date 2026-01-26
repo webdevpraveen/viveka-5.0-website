@@ -25,7 +25,7 @@ const teamData = {
     { 
       name: "Er. Abhishek Kumar Saxena", 
       role: "Counsellor, IEEE Student Chapter & Technical Society Head", 
-      image: "https://www.vivekatheintelligence.tech/static/media/22.84e79aae4013d11ad5c2.jpg",
+      image: "/abhishek.jpg",
       linkedin: "https://www.linkedin.com/in/abhishek-kumar-saxena-80a51111a/"
     },
   ],
