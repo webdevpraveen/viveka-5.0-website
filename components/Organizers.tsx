@@ -18,18 +18,19 @@ const teamData = {
   festInCharge: [
     { 
       name: "Dr. Veena Singh", 
-      role: "Fest In-Charge (HoD & Associate Prof.)", 
+      role: "HoD & Associate Professor-IMCE & University Club Coordinator", 
       image: "https://srmu.ac.in/storage/teams/1746008504048-sh7wu9-2-0-removebg-preview-1--01052510262614.png",
       linkedin: "https://www.linkedin.com/in/prof-dr-veena-singh-26a48b196/"
     },
-  ],
-  faculty: [
     { 
       name: "Er. Abhishek Kumar Saxena", 
-      role: "Faculty Convener (Asst. Prof - DEEE)", 
+      role: "Counsellor, IEEE Student Chapter & Technical Society Head", 
       image: "https://www.vivekatheintelligence.tech/static/media/22.84e79aae4013d11ad5c2.jpg",
       linkedin: "https://www.linkedin.com/in/abhishek-kumar-saxena-80a51111a/"
     },
+  ],
+  faculty: [
+
     { 
       name: "Dr. Mrityunjay Rai", 
       role: "Faculty Convener (Asst. Prof - DEEE)", 
