@@ -39,7 +39,7 @@ export default function OrganizerCard({ name, role, image, linkedin }: Organizer
                 src={image}
                 height="1000"
                 width="1000"
-                className="h-full w-full object-cover rounded-xl group-hover/card:scale-110 transition-transform duration-500"
+                className="h-full w-full object-cover object-top rounded-xl group-hover/card:scale-110 transition-transform duration-500"
                 alt={name}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60" />
