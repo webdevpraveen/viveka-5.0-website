@@ -60,7 +60,7 @@ export default function GlobalBackground() {
     }
 
     const particles: Particle[] = [];
-    const particleCount = 100; // Global density
+    const particleCount = width < 768 ? 30 : 100; // Optimization: Reduce particles on mobile
 
     for (let i = 0; i < particleCount; i++) {
         particles.push(new Particle());
