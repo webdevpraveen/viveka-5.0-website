@@ -46,14 +46,17 @@ export default function MobileMenu({ isOpen, onClose, links }: MobileMenuProps) 
               </motion.div>
             ))}
             
-            <motion.button
+            <motion.a
+                href="https://drive.google.com/file/d/1auqEEQnkTWOw5Ey31XJuUZP4K1XDuquO/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
-                className="mt-8 px-8 py-3 bg-neon-cyan text-black font-bold rounded-full hover:bg-white transition-colors"
+                className="mt-8 px-8 py-3 bg-neon-cyan text-black font-bold rounded-full hover:bg-white transition-colors block mx-auto"
             >
-                Coming Soon
-            </motion.button>
+                Sponsor Us
+            </motion.a>
           </nav>
         </motion.div>
       )}
