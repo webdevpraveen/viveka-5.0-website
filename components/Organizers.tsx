@@ -53,10 +53,12 @@ const teamData = {
   webOps: [
     { name: "Shrinjay Shresth", role: "WebOps Lead", image: "/shrinjay.png", linkedin: "https://www.linkedin.com/in/shrinjay-shresth-036010215/" }, 
   ],
+  secretaries: [
+    { name: "Pranshu Agrahari", role: "Student Organizing Secretary", course: "B.Tech CSE (DS+AI), 4th Year", image: "/pranshu.png", linkedin: "https://www.linkedin.com/in/pranshu-agrahari-956a37288/" },
+    { name: "Nitin Jaiswal", role: "Student Organizing Secretary", course: "B.Tech CSE (DS+AI), 4th Year", image: "/nitin.png", linkedin: "https://www.linkedin.com/in/thenitinjaiswal/" },
+    { name: "Shrinjay Shresth", role: "Student Organizing Secretary", course: "B.Tech CSE, 4th Year", image: "/shrinjay.png", linkedin: "https://www.linkedin.com/in/shrinjay-shresth-036010215/" },
+  ],
   veterans: [
-    { name: "Pranshu Agrahari", role: "Veteran Student Convener", course: "B.Tech CSE (DS+AI), 4th Year", image: "/pranshu.png", linkedin: "https://www.linkedin.com/in/pranshu-agrahari-956a37288/" },
-    { name: "Nitin Jaiswal", role: "Veteran Student Convener", course: "B.Tech CSE (DS+AI), 4th Year", image: "/nitin.png", linkedin: "https://www.linkedin.com/in/thenitinjaiswal/" },
-    { name: "Shrinjay Shresth", role: "Veteran Student Convener", course: "B.Tech CSE, 4th Year", image: "/shrinjay.png", linkedin: "https://www.linkedin.com/in/shrinjay-shresth-036010215/" },
     { name: "Aadi Chandra", role: "Veteran Student Convener", course: "B.Tech CSE (DS+AI), 4th Year", image: "/adii.jpg", linkedin: "https://www.linkedin.com/in/aadi-chandra-7a4185278/" },
     { name: "Nandini Verma", role: "Veteran Student Convener", course: "B.Tech CSE (DS+AI), 4th Year", image: "/nandini.jpg", linkedin: "https://www.linkedin.com/in/nandini-verma-4n5v4/" },
     { name: "Priyanshi Srivastava", role: "Veteran Student Convener", course: "B.Tech CSE (DS+AI), 4th Year", image: "/priyanshi.jpg", linkedin: "https://www.linkedin.com/in/priyanshi-s-012a782b1/" },
@@ -151,7 +153,19 @@ export default function Organizers() {
                      </div>
                 </div>
 
-                {/* Section 5: Veteran Student Conveners */}
+                {/* Section 5: Student Organizing Secretary */}
+                <div className="mb-24">
+                     <div className="text-center mb-10">
+                        <h2 className="text-2xl font-mono text-orange-500 tracking-widest uppercase inline-block border-b border-orange-500/50 pb-2">
+                             Student Organizing Secretary
+                        </h2>
+                     </div>
+                     <div className="flex flex-wrap justify-center gap-10">
+                         {teamData.secretaries.map((p, i) => <OrganizerCard key={i} {...p} />)}
+                     </div>
+                </div>
+
+                {/* Section 6: Veteran Student Conveners */}
                 <div className="mb-24">
                      <div className="text-center mb-10">
                         <h2 className="text-2xl font-mono text-yellow-500 tracking-widest uppercase inline-block border-b border-yellow-500/50 pb-2">
