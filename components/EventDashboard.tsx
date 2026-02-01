@@ -342,7 +342,7 @@ export default function EventDashboard() {
     <div className="container mx-auto px-4 py-24 h-screen md:h-[95vh] min-h-[500px] flex flex-col md:flex-row gap-8">
       
       {/* Sidebar: Data Stream */}
-      <div className="w-full md:w-1/3 flex flex-col gap-4 h-[40vh] md:h-full">
+      <div className="w-full md:w-1/3 flex flex-col gap-4 h-full">
         <h2 className="text-xl font-mono text-neon-cyan mb-4 flex items-center gap-2 flex-shrink-0">
             <Target size={20} /> EVENT_LOGS 
             <span className="md:hidden text-xs text-gray-500 font-normal ml-auto animate-pulse">(Tap to view)</span>
