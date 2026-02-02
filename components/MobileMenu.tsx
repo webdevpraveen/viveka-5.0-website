@@ -47,7 +47,7 @@ export default function MobileMenu({ isOpen, onClose, links }: MobileMenuProps) 
             ))}
             
             <motion.a
-                href="https://drive.google.com/drive/folders/1uMGYhViobTe32kuj-gz8tukceN20M3_X?usp=sharing"
+                href="https://drive.google.com/file/d/1Q4r3-LrXJtsX1U092u9illk2rWkWKPZn/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 initial={{ opacity: 0, y: 20 }}

@@ -69,7 +69,7 @@ export default function Footer() {
                          <li className="flex items-center gap-3 pt-2 text-neon-cyan/80 font-bold hover:text-neon-cyan transition-colors">
                             <span>🤝</span>
                             <a 
-                                href="https://drive.google.com/drive/folders/1uMGYhViobTe32kuj-gz8tukceN20M3_X?usp=sharing" 
+                                href="https://drive.google.com/file/d/1Q4r3-LrXJtsX1U092u9illk2rWkWKPZn/view?usp=sharing" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                             >
