@@ -37,6 +37,7 @@ export default function FAQMap() {
       {/* 1. Full Screen Stylized Map Background */}
       <div className="absolute inset-0 z-0 grayscale invert opacity-40">
         <iframe 
+          title="Google Map location of Shri Ramswaroop Memorial University"
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7112.963654557154!2d81.0981!3d26.951637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39995ee81add328f%3A0xbe8acc99218572c9!2sShri%20Ramswaroop%20Memorial%20University!5e0!3m2!1sen!2sin!4v1769177959470!5m2!1sen!2sin" 
           width="100%" 
           height="100%" 
