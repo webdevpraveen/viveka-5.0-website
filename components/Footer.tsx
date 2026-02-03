@@ -76,6 +76,16 @@ export default function Footer() {
                                 Interested in Sponsorship ?
                             </a>
                         </li>
+                         <li className="flex items-center gap-3 pt-2 text-white/80 font-bold hover:text-white transition-colors">
+                            <span>📄</span>
+                            <a 
+                                href="https://drive.google.com/file/d/1N7wEADfOzlOKdPCJPvfRAebJOfK1qTNh/view?usp=sharing" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                Download Event Brochure
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

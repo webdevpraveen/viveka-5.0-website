@@ -8,6 +8,7 @@ import {
   MotionValue,
 } from "framer-motion";
 import { Link } from "lucide-react"; 
+import { FileText } from "lucide-react";
 import Image from "next/image"; 
 import Countdown from "../Countdown"; 
 
@@ -116,9 +117,20 @@ export const Header = () => {
       
       <Countdown />
 
-       <button className="mt-8 px-8 py-3 rounded-full bg-neon-cyan text-black font-bold hover:scale-105 transition-transform shadow-[0_0_20px_rgba(0,240,255,0.3)] hover:shadow-[0_0_40px_rgba(0,240,255,0.6)] z-20 relative cursor-pointer pointer-events-auto">
-            Coming Soon
-       </button>
+       <div className="mt-8 flex flex-wrap gap-4 z-20 relative">
+         <button className="px-8 py-3 rounded-full bg-neon-cyan text-black font-bold hover:scale-105 transition-transform shadow-[0_0_20px_rgba(0,240,255,0.3)] hover:shadow-[0_0_40px_rgba(0,240,255,0.6)] cursor-pointer pointer-events-auto">
+             Coming Soon
+         </button>
+         <a 
+           href="https://drive.google.com/file/d/1N7wEADfOzlOKdPCJPvfRAebJOfK1qTNh/view?usp=sharing"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="px-8 py-3 rounded-full bg-white/10 text-white font-bold hover:bg-white/20 hover:scale-105 transition-all border border-white/20 flex items-center gap-2 cursor-pointer pointer-events-auto"
+         >
+           <FileText size={20} />
+           Event Brochure
+         </a>
+       </div>
     </div>
   );
 };
