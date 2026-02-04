@@ -75,7 +75,7 @@ const teamData = {
     { name: "Abhiinav Pratap Singh", role: "Student Convener", course: "B.Tech CSE, 3rd Year", image: "/abhiinav.jpg", linkedin: "https://www.linkedin.com/in/abhinav-pratap-singh-1a697728a/" },
   ],
   coConveners: [
-    { name: "Anshuma Yadav", role: "Student Co-Convener", course: "B.Tech CSE (CC+AI), 3rd Year", image: "/anshuma.webp", linkedin: "https://www.linkedin.com/in/anshuma-yadav-487b1a28a/" },
+    { name: "Anshuma Yadav", role: "Student Co-Convener", course: "B.Tech CSE (CC+AI), 3rd Year", image: "/anshuma.jpg", linkedin: "https://www.linkedin.com/in/anshuma-yadav-487b1a28a/" },
     { name: "Rashi Malik", role: "Student Co-Convener", course: "B.Tech CSE (DS+AI), 3rd Year", image: "/rashi.jpg", linkedin: "https://www.linkedin.com/in/rashi-malik-ab442b289/" },
     { name: "Shiv Manglam Dubey", role: "Student Co-Convener", course: "B.Tech CSE, 3rd Year", image: "/shiv.jpg", linkedin: "https://www.linkedin.com/in/shiv-manglam-dubey-6a7467289/" },
     { name: "Anshu Kasaudhan", role: "Student Co-Convener", course: "B.Tech CSE, 3rd Year", image: "/anshu.jpg", linkedin: "https://www.linkedin.com/in/anshu-kasaudhan-6073712ba/" },
