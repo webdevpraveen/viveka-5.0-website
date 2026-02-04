@@ -26,7 +26,7 @@ const teamData = {
   convener: [
     { 
       name: "Er. Abhishek Kumar Saxena", 
-      role: "Assistant Director, IQAC & Assistant Professor, DEEE & Coordinator, Technical & Social Media Society, SRMU", 
+      role: "Assistant Director, IQAC & Assistant Professor, DEEE & Head, Technical & Social Media Society, SRMU", 
       image: "/abhishek.jpg",
       linkedin: "https://www.linkedin.com/in/abhishek-kumar-saxena-80a51111a/"
     },
