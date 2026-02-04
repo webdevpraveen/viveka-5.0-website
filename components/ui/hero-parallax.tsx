@@ -87,7 +87,6 @@ export const HeroParallax = ({
               product={product}
               translate={translateXReverse}
               key={product.title}
-              priority={true}
             />
           ))}
         </motion.div>
@@ -97,7 +96,6 @@ export const HeroParallax = ({
               product={product}
               translate={translateX}
               key={product.title}
-              priority={true}
             />
           ))}
         </motion.div>
