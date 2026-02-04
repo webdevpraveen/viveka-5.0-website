@@ -18,7 +18,7 @@ const teamData = {
   festInCharge: [
     { 
       name: "Dr. Veena Singh", 
-      role: "HoD & Associate Professor-IMCE & University Club Coordinator", 
+      role: "HoD, Professor, IMCE & University Club Coordinator", 
       image: "https://srmu.ac.in/storage/teams/1746008504048-sh7wu9-2-0-removebg-preview-1--01052510262614.png",
       linkedin: "https://www.linkedin.com/in/prof-dr-veena-singh-26a48b196/"
     },
