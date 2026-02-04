@@ -176,9 +176,9 @@ export const ProductCard = ({
           width={480}
           className="object-cover object-left-top absolute h-full w-full inset-0"
           alt={product.title}
-          sizes="480px"
+          sizes="(max-width: 768px) 100vw, 480px"
           priority={priority}
-          quality={75}
+          quality={50}
         />
       </div>
       <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
