@@ -30,32 +30,13 @@ export const HeroParallax = ({
     offset: ["start start", "end start"],
   });
 
-  const springConfig = { stiffness: 300, damping: 30, bounce: 100 };
+  const translateX = useTransform(scrollYProgress, [0, 1], [0, 1000]);
+  const translateXReverse = useTransform(scrollYProgress, [0, 1], [0, -1000]);
+  const rotateX = useTransform(scrollYProgress, [0, 0.2], [15, 0]);
+  const opacity = useTransform(scrollYProgress, [0, 0.2], [0.2, 1]);
+  const rotateZ = useTransform(scrollYProgress, [0, 0.2], [20, 0]);
+  const translateY = useTransform(scrollYProgress, [0, 0.2], [-750, 80]);
 
-  const translateX = useSpring(
-    useTransform(scrollYProgress, [0, 1], [0, 1000]),
-    springConfig
-  );
-  const translateXReverse = useSpring(
-    useTransform(scrollYProgress, [0, 1], [0, -1000]),
-    springConfig
-  );
-  const rotateX = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [15, 0]),
-    springConfig
-  );
-  const opacity = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [0.2, 1]),
-    springConfig
-  );
-  const rotateZ = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [20, 0]),
-    springConfig
-  );
-  const translateY = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [-750, 80]),
-    springConfig
-  );
   const [isMobile, setIsMobile] = React.useState(false);
 
   React.useEffect(() => {
@@ -77,7 +58,7 @@ export const HeroParallax = ({
           translateY,
           opacity,
         }}
-        className=""
+        className="will-change-transform"
       >
         <motion.div className="flex flex-row-reverse space-x-reverse space-x-20 mb-20">
           {firstRow.map((product, index) => (
