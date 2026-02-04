@@ -22,6 +22,8 @@ const teamData = {
       image: "https://srmu.ac.in/storage/teams/1746008504048-sh7wu9-2-0-removebg-preview-1--01052510262614.png",
       linkedin: "https://www.linkedin.com/in/prof-dr-veena-singh-26a48b196/"
     },
+  ],
+  convener: [
     { 
       name: "Er. Abhishek Kumar Saxena", 
       role: "Assistant Director, IQAC & Assistant Professor, DEEE & Coordinator, Technical Society, SRMU", 
@@ -140,6 +142,18 @@ export default function Organizers() {
                      </div>
                      <div className="flex flex-wrap justify-center gap-10">
                          {teamData.festInCharge.map((p, i) => <OrganizerCard key={i} {...p} />)}
+                     </div>
+                </div>
+
+                {/* Section 3.5: Convener (New) */}
+                <div className="mb-24">
+                     <div className="text-center mb-10">
+                        <h2 className="text-2xl font-mono text-white tracking-widest uppercase inline-block border-b border-white/20 pb-2">
+                             Convener
+                        </h2>
+                     </div>
+                     <div className="flex flex-wrap justify-center gap-10">
+                         {teamData.convener.map((p, i) => <OrganizerCard key={i} {...p} />)}
                      </div>
                 </div>
 
