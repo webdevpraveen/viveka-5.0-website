@@ -13,13 +13,13 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.vivekatheintelligence.tech"),
+  metadataBase: new URL("https://www.vivekatheintelligence.in"),
   title: {
     default: "Viveka 5.0: The Intelligence | SRMU Tech Fest 2026",
     template: "%s | Viveka 5.0",
   },
   description:
-    "Viveka 5.0 is the flagship technical festival of Shri Ramswaroop Memorial University, featuring 20+ events in Robotics, AI, Gaming, Coding, and more. February 18-20, 2026.",
+    "Viveka 5.0 is the flagship technical festival of Shri Ramswaroop Memorial University, featuring 20+ events in Robotics, AI, Gaming, Coding, and more. Join us from February 18-20, 2026 in Lucknow.",
   keywords: [
     "Viveka 5.0",
     "SRMU Tech Fest",
@@ -31,14 +31,19 @@ export const metadata: Metadata = {
     "Coding Competition",
     "AI Workshop",
     "Gaming Tournament",
+    "Engineering Fest Lucknow",
+    "University Tech Events",
+    "Student Innovation",
+    "Viveka SRMU",
+    "TechFest 2026"
   ],
-  authors: [{ name: "TechFusion Club", url: "https://www.vivekatheintelligence.tech" }],
+  authors: [{ name: "TechFusion Club", url: "https://www.vivekatheintelligence.in" }],
   creator: "TechFusion Club - SRMU",
   publisher: "Shri Ramswaroop Memorial University",
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://www.vivekatheintelligence.tech",
+    url: "https://www.vivekatheintelligence.in",
     siteName: "Viveka 5.0",
     title: "Viveka 5.0: The Intelligence | SRMU Tech Fest 2026",
     description:
@@ -79,7 +84,7 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   alternates: {
-    canonical: "https://www.vivekatheintelligence.tech",
+    canonical: "https://www.vivekatheintelligence.in",
   },
 };
 

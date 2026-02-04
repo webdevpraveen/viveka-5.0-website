@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
                 disallow: ["/api/", "/_next/"],
             },
         ],
-        sitemap: "https://www.vivekatheintelligence.tech/sitemap.xml",
+        sitemap: "https://www.vivekatheintelligence.in/sitemap.xml",
     };
 }
