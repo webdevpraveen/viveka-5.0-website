@@ -56,16 +56,24 @@ export const HeroParallax = ({
     useTransform(scrollYProgress, [0, 0.2], [-750, 80]),
     springConfig
   );
+  const [isMobile, setIsMobile] = React.useState(false);
+
+  React.useEffect(() => {
+    if (window.innerWidth < 768) {
+      setIsMobile(true);
+    }
+  }, []);
+
   return (
     <div
       ref={ref}
-      className="min-h-screen md:min-h-[160vh] py-20 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[230vh] md:h-[180vh] py-20 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
         style={{
-          rotateX,
-          rotateZ,
+          rotateX: isMobile ? 0 : rotateX,
+          rotateZ: isMobile ? 0 : rotateZ,
           translateY,
           opacity,
         }}
