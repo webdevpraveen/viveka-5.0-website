@@ -22,12 +22,25 @@ const events: EventData[] = [
     contacts: [{ name: "Tech Team", phone: "" }]
   },
   {
-    id: "hackathon",
-    title: "Hack-A-Thon",
+    id: "hackathon-university",
+    title: "Hack-A-Thon (University)",
     description: "The ultimate tech showdown where innovation meets collaboration! Problem solvers, designers, and coders come together to create cutting-edge solutions for real-world challenges in a limited time frame.",
     image: "https://images.unsplash.com/photo-1504384308090-c54be3855833?q=80&w=1974&auto=format&fit=crop",
     category: "Tech",
-    teamSize: "Team of 2-4",
+    teamSize: "Team (Max 4)",
+    fee: "Register to View",
+    prizes: ["Grand Prize Pool"],
+    location: "Innovation Hub",
+    timing: "24 Hours",
+    contacts: []
+  },
+  {
+    id: "hackathon-school",
+    title: "Hack-A-Thon (School)",
+    description: "The ultimate tech showdown for school students! Showcase your individual problem-solving skills and coding prowess to create innovative solutions for real-world challenges.",
+    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070&auto=format&fit=crop",
+    category: "Tech",
+    teamSize: "Individual",
     fee: "Register to View",
     prizes: ["Grand Prize Pool"],
     location: "Innovation Hub",
