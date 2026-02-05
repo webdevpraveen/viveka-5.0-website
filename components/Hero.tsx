@@ -1,7 +1,6 @@
 import GridMotion from "./GridMotion";
 import Countdown from "./Countdown";
 import { FileText } from "lucide-react";
-import Head from "next/head";
 
 const events = [
   "/laser-show-opt.webp",
@@ -20,15 +19,7 @@ const events = [
 
 export default function Hero() {
   return (
-    <>
-      <Head>
-        {/* Preload first 4 critical images for LCP */}
-        <link rel="preload" as="image" href="/laser-show-opt.webp" />
-        <link rel="preload" as="image" href="/drone-race-xs.webp" />
-        <link rel="preload" as="image" href="/robo-war-xs.webp" />
-        <link rel="preload" as="image" href="/robo-football-xs.webp" />
-      </Head>
-      <section className="relative w-full h-screen overflow-hidden bg-[#020617] dark:bg-[#020617]">
+    <section className="relative w-full h-screen overflow-hidden bg-[#020617] dark:bg-[#020617]">
       <div className="absolute inset-0 z-0">
         <GridMotion items={events} gradientColor="black" />
         <div className="absolute inset-0 bg-black/50 pointer-events-none z-10" />
@@ -63,6 +54,5 @@ export default function Hero() {
         </div>
       </div>
     </section>
-    </>
   );
 }

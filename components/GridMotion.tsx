@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useMemo } from 'react';
 import { gsap } from 'gsap';
+import Image from 'next/image';
 import './GridMotion.css';
 
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -124,16 +125,22 @@ const GridMotion: React.FC<GridMotionProps> = ({ items = [], gradientColor = 'bl
             <div key={rowIndex} className="row" ref={el => { rowRefs.current[rowIndex] = el }}>
               {[...Array(4)].map((_, itemIndex) => {
                 const content = combinedItems[rowIndex * 4 + itemIndex];
+                const globalIndex = rowIndex * 4 + itemIndex;
+                const isPriority = globalIndex < 4; // First 4 images get priority
+                
                 return (
                   <div key={itemIndex} className="row__item">
                     <div className="row__item-inner" style={{ backgroundColor: '#111' }}>
                       {typeof content === 'string' && content.startsWith('/') ? (
-                        <div
-                          className="row__item-img"
-                          style={{
-                            backgroundImage: `url(${content})`
-                          }}
-                        ></div>
+                        <Image
+                          src={content}
+                          alt={`Event ${globalIndex + 1}`}
+                          fill
+                          sizes="(max-width: 768px) 25vw, (max-width: 1024px) 20vw, 15vw"
+                          className="row__item-img-next"
+                          priority={isPriority}
+                          quality={75}
+                        />
                       ) : (
                          <div className="row__item-content">{content}</div>
                       )}
