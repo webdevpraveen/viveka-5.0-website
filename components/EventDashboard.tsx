@@ -48,7 +48,7 @@ const events: EventData[] = [
     prizes: ["Pool Prize"],
     location: "Mini Auditorium (Admin) (Final Round)",
     timing: "20th Feb",
-    contacts: [{ name: "Shashank Kumar", phone: "6306569583" }, { name: "Aviral Mishra", phone: "9129836669" }, { name: "Divyansh Srivastava", phone: "6394500934" }],
+    contacts: [{ name: "Shashank Kumar", phone: "6306569583" }, { name: "Divyansh Srivastava", phone: "6394500934" }],
     level: "university",
     registrationLink: "https://forms.gle/FPDw5HN32rgQhyyg7"
   },
@@ -63,7 +63,7 @@ const events: EventData[] = [
     prizes: ["Prizes"],
     location: "Volleyball Court",
     timing: "19th Feb, 3:30 PM",
-    contacts: [{ name: "Samarth Kumar", phone: "8081880868" }, { name: "Himanshu Sharma", phone: "6386531609" },],
+    contacts: [{ name: "Samarth Kumar", phone: "8081880868" }, { name: "Himanshu Sharma", phone: "6386531609" }, { name: "Ansh Kumar Singh", phone: "7905551795" },],
     level: "university",
     registrationLink: "https://forms.gle/4pDhh72JboG8BjwE9"
   },
@@ -228,7 +228,7 @@ const events: EventData[] = [
     prizes: ["TBA"],
     location: "Volleyball Court",
     timing: "19th Feb 12:30 PM (Univ) | 18th Feb 2:00 PM (School)",
-    contacts: [{ name: "Shiv Mangalam Dubey", phone: "9151702366" }, { name: "Aditya Singh", phone: "9794791608" }, { name: "Anubhav Jaiswal", phone: "9559107407" }],
+    contacts: [{ name: "Raunak Srivastava", phone: "7235918654" }, { name: "Aditya Singh", phone: "9794791608" }, { name: "Anubhav Jaiswal", phone: "9559107407" }],
     level: "both",
     registrationLink: "https://forms.gle/jSG2d9sAQHoVe3hE6"
   },
