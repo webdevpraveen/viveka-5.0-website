@@ -46,7 +46,7 @@ const events: EventData[] = [
     fee: "Register to View",
     prizes: ["TBA"],
     location: "Innovation Hub",
-    timing: "24 Hours",
+    timing: "19th Feb, 12:30 PM",
     contacts: [],
     rulebook: "https://drive.google.com/file/d/1sYT00-ezryu_hOPSotRhJ7r85K47Fbwi/view"
   },
@@ -103,7 +103,7 @@ const events: EventData[] = [
     fee: "Register to View",
     prizes: ["TBA"],
     location: "Track Area",
-    timing: "TBA",
+    timing: "19th Feb, 2:00 PM",
     contacts: [],
     rulebook: "https://drive.google.com/file/d/1j2zIV7JYpS2SyhL3Y2UGybH1iHcbQty6/view"
   },
@@ -117,7 +117,7 @@ const events: EventData[] = [
     fee: "Register to View",
     prizes: ["TBA"],
     location: "Soccer Arena",
-    timing: "TBA",
+    timing: "19th Feb, 2:00 PM",
     contacts: [],
     rulebook: "https://drive.google.com/file/d/18J_8K51RG7Qnx9EPrvdHk2qjOr50KscS/view"
   },
@@ -131,7 +131,7 @@ const events: EventData[] = [
     fee: "Register to View",
     prizes: ["TBA"],
     location: "Open Ground",
-    timing: "TBA",
+    timing: "19th Feb, 3:30 PM",
     contacts: [],
     rulebook: "https://drive.google.com/file/d/1LHDxWjjUWbpK1JrotWdBMDjgrzg9c0YK/view"
   },
@@ -217,7 +217,7 @@ const events: EventData[] = [
     fee: "Register to View",
     prizes: ["TBA"],
     location: "TBA",
-    timing: "TBA",
+    timing: "19th Feb, 3:25 PM",
     contacts: [],
     rulebook: "https://drive.google.com/file/d/1_N6bE_UrRex7s-vCbM6sXfOaH20jSlUY/view"
   },
