@@ -59,7 +59,7 @@ const events: EventData[] = [
     title: "Boat Race",
     description: "Join us for an exhilarating RC Boat Race Challenge, where enthusiasts and competitors will showcase their skills in navigating radio-controlled boats through a watercourse filled with obstacles. Participants will race their RC boats in a specially designed water body, maneuvering through twists, turns, and barriers in the shortest possible time to claim victory.",
     image: "/events-page-banner.jpeg",
-    category: "Robotics",
+    category: "Fun",
     teamSize: "2 Members",
     fee: "₹100/-",
     prizes: ["TBA"],

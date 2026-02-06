@@ -110,7 +110,7 @@ const scheduleData: Record<number, Event[]> = {
     },
     {
       title: "Boat Race",
-      category: "Robotics",
+      category: "Fun",
       time: "03:30 PM",
         venue: "Volleyball Court",
       description: "Navigate RC boats through a water obstacle course.",
