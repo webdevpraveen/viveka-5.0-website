@@ -6,7 +6,7 @@ import { Sparkles, Calendar, MapPin, Music2 } from "lucide-react";
 
 export default function StarNightSpotlight() {
   return (
-    <section className="relative w-full min-h-screen py-20 md:py-32 bg-gradient-to-b from-[#020617] via-[#0a0a1f] to-[#020617] z-10 force-gpu">
+    <section className="relative w-full min-h-screen py-20 md:py-32 bg-gradient-to-b from-[#020617] via-[#0a0a1f] to-[#020617] z-10">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Gradient Orbs */}
@@ -20,7 +20,7 @@ export default function StarNightSpotlight() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="absolute top-1/4 -left-32 w-[500px] h-[500px] rounded-full will-change-transform"
+          className="absolute top-1/4 -left-32 w-[500px] h-[500px] rounded-full"
           style={{
             background: "radial-gradient(circle, rgba(168, 85, 247, 0.2) 0%, rgba(168, 85, 247, 0) 70%)"
           }}
@@ -35,7 +35,7 @@ export default function StarNightSpotlight() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="absolute bottom-1/4 -right-32 w-[500px] h-[500px] rounded-full will-change-transform"
+          className="absolute bottom-1/4 -right-32 w-[500px] h-[500px] rounded-full"
           style={{
             background: "radial-gradient(circle, rgba(0, 255, 255, 0.15) 0%, rgba(0, 255, 255, 0) 70%)"
           }}
@@ -56,7 +56,7 @@ export default function StarNightSpotlight() {
               delay: i * 0.8,
               ease: "easeOut",
             }}
-            className="absolute will-change-transform"
+            className="absolute"
             style={{
               left: `${20 + i * 15}%`,
               bottom: `${10 + (i % 3) * 20}%`,
@@ -140,7 +140,7 @@ export default function StarNightSpotlight() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.8, duration: 0.5 }}
-                className="absolute -bottom-6 left-1/2 -translate-x-1/2 px-8 py-3 bg-black/80 backdrop-blur-md border border-neon-cyan/50 rounded-full shadow-[0_0_30px_rgba(0,240,255,0.3)] z-30 force-gpu"
+                className="absolute -bottom-6 left-1/2 -translate-x-1/2 px-8 py-3 bg-black/80 backdrop-blur-md border border-neon-cyan/50 rounded-full shadow-[0_0_30px_rgba(0,240,255,0.3)] z-30"
               >
                 <span className="text-neon-cyan font-bold text-lg">LIVE Performance</span>
               </motion.div>
