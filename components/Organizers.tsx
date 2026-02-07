@@ -53,7 +53,7 @@ const teamData = {
           }
      ],
      webOps: [
-          { name: "Shrinjay Shresth", role: "WebOps Lead", image: "/shrinjay-v2.webp", linkedin: "https://www.linkedin.com/in/shrinjay-shresth-036010215/" },
+          { name: "Shrinjay Shresth", role: "WebOps Lead", course: "B.Tech CSE, 4th Year", image: "/shrinjay-v2.webp", linkedin: "https://www.linkedin.com/in/shrinjay-shresth-036010215/" },
           { name: "Praveen Kumar Singh", role: "WebOps Team", course: "BCA, 1st Year", image: "/praveen-singh-new.jpg", linkedin: "https://www.linkedin.com/in/praveenksingh-/", objectPosition: "object-center" },
      ],
      secretaries: [
